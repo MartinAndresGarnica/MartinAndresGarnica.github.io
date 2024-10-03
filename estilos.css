@@ -50,6 +50,18 @@ section{
     border: 5px solid #eb7f67; /* Color y grosor del borde */
 }
 
+.btn-custom {
+    background: linear-gradient(90deg, #eb7f67 50%, transparent 50%); /* Inicialmente, mitad del botón con color */
+    background-size: 200%;  /* El doble del tamaño original del botón */
+    background-position: 100%; /* Inicia desplazado para que no se vea lleno al principio */
+    color: white;
+    border-color: #eb7f67;
+    transition: background-position 0.7s ease; /* La transición dura 0.5 segundos */
+}
+
+.btn-custom:hover {
+    background-position: 0%; /* Cuando haces hover, el color se mueve desde la izquierda (posición 0%) */
+}
 /* about me section */
 
 .about{
