@@ -84,6 +84,19 @@ section{
 
 /* projects section */
 
-.projects{
-
+.projects h1{
+    text-align: center;
+    font-size: 3.4rem;
+    font-weight: 700;
 }
+.tech-icons i {
+    font-size: 2rem;
+    margin-right: 10px;
+}
+/* contact section */
+
+.contact h1{
+    font-size: 3.4rem;
+    font-weight: 700;
+}
+
