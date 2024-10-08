@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .navbar{
-    background-color:  transparent;
+    background-color:  #060724;
 }
 .navbar-brand{
     font-size: 1.5rem;
@@ -63,24 +63,41 @@ section{
     background-position: 0%; /* Cuando haces hover, el color se mueve desde la izquierda (posición 0%) */
 }
 /* about me section */
-
-.about{
-    background-color: #eb7f67;
-    justify-content: center;
+.about {
+    background-color: #f2f2f200; /* Fondo oscuro de la página */
+    padding: 60px 0;
+    color: #f9f9f9; /* Texto claro para contrastar */
     text-align: justify;
 }
-#about-caja{
-    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
-}
-.about h1{
-    text-align: center;
-    font-size: 3.4rem;
-    font-weight: 700;
+
+#about-caja {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 1); /* Sombra más suave para fondo oscuro */
+    background-color: #eb7f67; /* Fondo de la caja según lo solicitado */
+    padding: 40px;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
 }
 
-.about p{
-    font-size: 1.3rem;
+#about-caja:hover {
+    transform: translateY(-10px);
 }
+
+.about h1 {
+    text-align: center;
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #ffffff; /* Título en blanco para contraste con el fondo de la caja */
+}
+
+.about p {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    color: #ffffff; /* Texto también en blanco para mayor legibilidad */
+    text-align: justify;
+    margin-top: 15px;
+}
+
 
 /* projects section */
 
